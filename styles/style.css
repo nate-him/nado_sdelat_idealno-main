@@ -1,0 +1,26 @@
+body {
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  max-width: 1600px;
+  z-index: -1;
+  
+}
+
+.page__heading {
+  font-size: 116px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4.06;
+  text-align: center;
+}
+
+.page__heading:hover::before {
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  white-space: pre;
+  position: absolute;
+}
