@@ -10,8 +10,6 @@ html {
 .page {
   position: relative;
   display: flex;
-  min-width: 800px;
-  max-width: 1600px;
   height: 100%;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
