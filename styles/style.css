@@ -31,8 +31,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-  
+  object-position: center;  
 }
 
 .page__title {
@@ -57,7 +56,7 @@ html {
 }
 
 .page__title:hover::before {
-content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   position: absolute;
   top: 180px;
   right: 20px;
