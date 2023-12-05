@@ -29,11 +29,11 @@ html {
 .page__video {
   position: absolute;
   inset: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-  z-index: -1;
   
 }
 
@@ -41,8 +41,8 @@ html {
   z-index: 1;
   max-width: 720px;
   margin: 0 auto;
-  font-size: 116px;
   font-weight: 800;
+  font-size: 116px;
   letter-spacing: 3.5px;
   text-align: center;
   text-transform: uppercase;
@@ -60,7 +60,6 @@ html {
 
 .page__title:hover::before {
 content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
-  white-space: pre;
   position: absolute;
   top: 180px;
   right: 20px;
@@ -77,5 +76,5 @@ content: 'На самом деле нет.\AВажнее &mdash; научить�
   text-align: left;
   text-transform: initial;
   background-color: #fff;
+  white-space: pre;
 }
-
